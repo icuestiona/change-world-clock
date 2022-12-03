@@ -8,5 +8,47 @@
     <link href="src/styles.css" rel="stylesheet" />
     <title>World-clock-change</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <header>
+        <h1>World Clock</h1>
+      </header>
+      <select name="" id="city-select">
+        <option value="">Select a city....</option>
+        <option value="current">My location</option>
+        <option value="America/Sao_Paulo">Sao Paulo 🇧🇷</option>
+        <option value="Pacific/Honolulu">Honolulu 🇺🇸</option>
+        <option value="Asia/Kolkata">Kolkata 🇮🇳</option>
+        <option value="Europe/Paris">Paris 🇫🇷</option>
+        <option value="Asia/Bangkok">Bangkok 🇹🇭</option>
+        <option value="Asia/Singapore">Singapore 🇸🇬</option>
+      </select>
+
+      <div id="cities">
+        <div class="city" id="new-york">
+          <div>
+            <h2>New York 🇺🇸</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+
+        <div class="city" id="sydney">
+          <div>
+            <h2>Sydney 🇦🇺</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        Project coded by <strong>Soraya Carvajal</strong>
+        and it is open-source on
+        <a href="" target="_blank">Github</a>
+      </p>
+    </footer>
+    <script src="src/index.js"></script>
+  </body>
 </html>
