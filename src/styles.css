@@ -45,11 +45,6 @@ footer {
   color: #000;
 }
 
-footer a {
-  color: blueviolet;
-  text-decoration: none;
-}
-
 @media only screen and (min-width: 150px) and (max-width: 780px) {
   .select {
     width: 95%;
