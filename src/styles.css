@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  font-size: 1.7em;
+  font-weight: 500;
+  line-height: 1.5;
+  background-color: #f3f0f0;
+  color: #fff;
+}
+.container {
+  margin: 120px auto;
+  margin-bottom: 60px;
+  max-width: 600px;
+  padding: 30px;
+  box-shadow: 0px 20px 40px rgba(180, 9, 22, 0.08);
+  background-color: #272044;
+  border-radius: 4px;
+}
+
+header {
+  border-bottom: 2px solid rgba(119, 17, 17, 0.2);
+}
+header h1 {
+  font-size: "Roboto", sans-serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+}
+
+select {
+  width: 100%;
+  padding: 16px;
+  border-radius: 6px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #272044;
+}
+footer {
+  text-align: center;
+  opacity: 0.6;
+  font-size: 0.5em;
+  color: #000;
+}
+
+a {
+  color: #fff;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 780px) {
+  .select {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
